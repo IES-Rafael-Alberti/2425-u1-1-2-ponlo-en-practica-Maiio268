@@ -141,4 +141,4 @@ RESPUESTAS:
 5.5. Criterio de Evaluación 1.f: Evaluación de Herramientas Utilizadas en el Desarrollo
 1. -Sistema operativo: he usado Windows para los 3 lenguajes.
 -Editor de texto o IDE: he utilizado Visual Studio Code.
--Compilador o intérprete: Python: primero se compila el código fuente a bytecode y después el intérprete de Python ejecuta el bytecode. C: el compilador transforma el código fuente en código máquina y se genera un archivo ejecutable (en Windows el archivo tiene la extensión .exe) el cual puede ser ejecutado por el sistema operativo. Java: 
+-Compilador o intérprete: Python: primero se compila el código fuente a bytecode y después el intérprete de Python ejecuta el bytecode. C: el compilador transforma el código fuente en código máquina y se genera un archivo ejecutable (en Windows el archivo tiene la extensión .exe) el cual puede ser ejecutado por el sistema operativo. Java: elcompilador de java (javac) transforma el código fuente a bytecode y después la Java Virtual Machine (JVM) ejecuta el bytecode.
