@@ -12,15 +12,15 @@ Apoyate en los siguientes recursos para realizar la práctica:
 # Título de la Actividad
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** 2425-u1-1-2-ponlo-en-practica-Maiio268
+- **Módulo:** EDES
+- **Unidad de Trabajo:** Unidad 1: Introducción al desarrollo del software
+- **Fecha de Creación:** 21/10/2024
+- **Fecha de Entrega:** 21/10/2024
 - **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Mario Montes Bermúdez
+  - **Correo electrónico:** mmonber326@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** MMB
 
 ## Descripción de la Actividad
 [Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
@@ -78,3 +78,54 @@ Apoyate en los siguientes recursos para realizar la práctica:
    - Si se entrega en formato PDF o Google Docs, asegúrate de cumplir con el mínimo y máximo de folios establecidos.
 4. **Compilación y Ejecución:**
    - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
+
+
+5.1. Criterio de Evaluación 1.a: Relación entre Software y Hardware¶
+Pregunta:
+
+Describe cómo el software que has creado se ha relacionado con los componentes físicos del dispositivo (memoria RAM, procesador, periféricos, etc.) durante la ejecución de los tres lenguajes (interpretado, compilado y en máquina virtual).
+Puntos a incluir:
+Cómo se almacenaron los datos en memoria.
+Qué hizo el procesador con el código.
+Si se interactuó con periféricos, como la pantalla para mostrar la salida.
+5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable¶
+Preguntas:
+
+Explica cómo el código fuente que escribiste se transformó en código objeto y ejecutable en el caso de los lenguajes compilados. ¿Generaste archivos intermedios (código objeto)? ¿Qué nombres tomaron estos archivos?
+Para los lenguajes interpretados, describe cómo el código fuente se ejecutó directamente, sin generar archivos de código objeto o ejecutable.
+Para el lenguaje que genera código intermedio (Java, C#), explica cómo el código fuente se transformó en código intermedio (bytecode) y cómo este fue ejecutado por la máquina virtual.
+5.3. Criterio de Evaluación 1.d: Generación de Código Intermedio para Máquinas Virtuales¶
+Preguntas:
+
+Describe el proceso de generación de código intermedio (bytecode) en el lenguaje que utilizaste que emplea una máquina virtual (por ejemplo, Java o C#).
+Explica qué rol juega la máquina virtual en la ejecución del código y cómo difiere de la ejecución directa en un sistema operativo como ocurre con los lenguajes compilados e interpretados.
+5.4. Criterio de Evaluación 1.e: Clasificación de Lenguajes de Programación¶
+Preguntas:
+
+Clasifica los tres lenguajes utilizados (interpretado, compilado y en máquina virtual) según su:
+
+Modo de ejecución (interpretado vs compilado vs máquina virtual).
+Nivel de abstracción (alto nivel vs bajo nivel).
+Paradigma de programación (imperativo, orientado a objetos, funcional).
+Explica qué características de estos lenguajes influyeron en su clasificación.
+
+5.5. Criterio de Evaluación 1.f: Evaluación de Herramientas Utilizadas en el Desarrollo¶
+Preguntas:
+
+Para cada uno de los tres lenguajes (interpretado, compilado y en máquina virtual), describe las herramientas que utilizaste en el proceso de desarrollo:
+Sistema operativo (¿en qué sistema ejecutaste el programa?).
+Editor de texto o IDE (¿dónde escribiste el código?).
+Compilador o intérprete (¿cómo se transformó o ejecutó el código?).
+Depurador (si lo usaste, ¿cómo lo empleaste para encontrar errores?).
+Sistema de gestión de versiones (si lo usaste, ¿cómo guardaste las versiones del código?).
+
+RESPUESTAS:
+5.1. Criterio de Evaluación 1.a: Relación entre Software y Hardware
+1. Los datos se almacenan temporalmente en la memoria RAM cuando el programa estáen ejecución (cuando el equipo se apaga estos datosdesaparecen), el procesador se encarga de recuperar las instrucciones de la RAM y ejecutarlas una a una, después se imprime la frase por la pantalla, que es un periférico de salida.
+
+5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable
+1. En los lenguajes compilados (en este caso C), el código pasa por el compilador y por el enlazador. Si, se generaron archivo s intermedios, tomó la extensión .obj
+2. En los lenguajes interpretados, el código se ejecuta línea por línea sin compilarse previamente.
+3. Primero el código fuente es compilado por el compilador de Java (Javac), que lo transforma a código intermedio (llamado bytecode), después la máquina virtual de Java compila en tiempo de ejecución el bytecode en código máquina específico de esa plataforma en la cual se está ejecutando.
+
+5.3. Criterio de Evaluación 1.d: Generación de Código Intermedio para Máquinas Virtuales
