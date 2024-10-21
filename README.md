@@ -121,7 +121,7 @@ Sistema de gestión de versiones (si lo usaste, ¿cómo guardaste las versiones 
 
 RESPUESTAS:
 5.1. Criterio de Evaluación 1.a: Relación entre Software y Hardware
-1. Los datos se almacenan temporalmente en la memoria RAM cuando el programa estáen ejecución (cuando el equipo se apaga estos datosdesaparecen), el procesador se encarga de recuperar las instrucciones de la RAM y ejecutarlas una a una, después se imprime la frase por la pantalla, que es un periférico de salida.
+1. Los datos se almacenan temporalmente en la memoria RAM cuando el programa está en ejecución (cuando el equipo se apaga estos datosdesaparecen), el procesador se encarga de recuperar las instrucciones de la RAM y ejecutarlas una a una, después se imprime la frase por la pantalla, que es un periférico de salida.
 
 5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable
 1. En los lenguajes compilados (en este caso C), el código pasa por el compilador y por el enlazador. Si, se generaron archivo s intermedios, tomó la extensión .obj
@@ -129,3 +129,16 @@ RESPUESTAS:
 3. Primero el código fuente es compilado por el compilador de Java (Javac), que lo transforma a código intermedio (llamado bytecode), después la máquina virtual de Java compila en tiempo de ejecución el bytecode en código máquina específico de esa plataforma en la cual se está ejecutando.
 
 5.3. Criterio de Evaluación 1.d: Generación de Código Intermedio para Máquinas Virtuales
+1. El código intermedio (bytecode) se genera a partir del código fuente, el cual es compilado por el compilador de Java (Javac) y después transformado en el bytecode.
+2. La máquina virtual se encarga de compilar el bytecode en código máquina específico de la plataforma en la que se ejecuta el código, se difiere de la ejecución directa en que la máquina virtual hace que el mismo código pueda funcionar en diferentes sistemas operativos sin necesidad de compilar elcódigo de nuevo, es decir, una de las diferencias mas notables es la portabilidad.
+
+5.4. Criterio de Evaluación 1.e: Clasificación de Lenguajes de Programación
+1. -Python: tiene una fase de compilación a bytecode y después de interpretación (ya que se ejecuta línea por línea), de alto nivel (ya que es fácil de entender y tiene poco control sobre el hardware) y puede considerarse imperativo y funcional, depende de la forma en que uses Python.
+-Java: máquina virtual (Java tiene su propia máquina virtual, llamada Javac), de alto nivel (ya que es fácil de entender y tiene poco control sobre el hardware) e imperativo (porque en este lenguajee, el programador da instrucciones detalladas sobre cómo el programa debe ejecutar las tareas).
+-C: compilado (porque el código fuente pasa por un proceso de compilado y de enlazamiento), de bajo nivel (ya que proporciona un control directo sobre el hardware y están más cerca del lenguaje máquina) e imperativo (porque en este lenguajee, el programador da instrucciones detalladas sobre cómo el programa debe ejecutar las tareas).
+(La pregunta 2 está contestada en la 1)
+
+5.5. Criterio de Evaluación 1.f: Evaluación de Herramientas Utilizadas en el Desarrollo
+1. -Sistema operativo: he usado Windows para los 3 lenguajes.
+-Editor de texto o IDE: he utilizado Visual Studio Code.
+-Compilador o intérprete: Python: primero se compila el código fuente a bytecode y después el intérprete de Python ejecuta el bytecode. C: el compilador transforma el código fuente en código máquina y se genera un archivo ejecutable (en Windows el archivo tiene la extensión .exe) el cual puede ser ejecutado por el sistema operativo. Java: 
